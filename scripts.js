@@ -1,11 +1,14 @@
-// scripts
+// scripts.js
 
-var a= 4;
-		b= 5;
-    value = prompt"(a * a) - (2 * a * b) - (b * b)";
+var a= pompt ('Podaj liczbe'),
+	b= pompt ('Podaj drugą liczbe'),
+	value =[(a * a) - (2 * a * b) - (b * b)];
+
     
 if
-  console.log(valueis plus)
+  (value > 0) 
+{document.write('Liczba dodatnia!')}
 else 
- console.log(valeuisminus)
+ (value < 0)
+{document.write('Liczba ujemna!')}
  
